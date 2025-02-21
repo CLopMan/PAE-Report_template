@@ -1,0 +1,41 @@
+\documentclass[es]{uc3mPAE}
+\graphicspath{{imagenes/}} % Modify path to your img folder
+\usepackage{lipsum}        % Delete when finished
+
+\author{José de Espronceda y Delgado}
+\title{Memoria de Practicas Externas} 
+\date{\today}
+\courseyear{2024-25}
+\company{Cool Company 123}
+\advisorCollege{Miguel Delibes Setién}
+\advisorCompany{Gustavo Adolfo Bécquer}
+\mail{999999999@alumnos.uc3m.es}
+\NIA{999999999}
+\degree{Ingeniería Letrástica}
+\course{Cuarto curso}
+\logoIMG{ExampleLogo.png}
+
+\pagestyle{fancy}
+\begin{document}
+\makecover
+\newpage
+
+    % table of contents
+    \hypersetup{linkcolor=black}
+    \tableofcontents 
+    \thispagestyle{index}
+    \hypersetup{linkcolor=blue}
+
+    \begin{memoria}
+    \pagenumbering{arabic}
+    \include{./parts/Introduction.tex}
+    \include{./parts/Datos.tex}
+    \include{./parts/Objetives.tex}
+    \include{./parts/JobFases.tex}
+    \include{./parts/Considerations.tex}
+    \include{./parts/Conclussions.tex}
+
+
+\end{memoria}
+
+\end{document}
