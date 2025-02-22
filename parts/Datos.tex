@@ -1,14 +1,78 @@
-\chapter{Datos}
+\chapter{\chapDatos}
 \label{sec:datos}
 
-\section{Datos del estudiante}
+\section{\secStudentData}
 \label{subsec:estrudiante-data}
 
-\section{Datos de la empresa}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lc}
+        \toprule \\
+        \multicolumn{2}{c}{\textbf{\large\studentInformationText}} \\
+        \midrule
+        \textbf{\nameText} & \authorName \\
+        \textbf{NIA} & \NIAnumber \\
+        \textbf{e-mail} & {\mailaddr} \\
+        \textbf{\birthDateText} & {\birthdate} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{\secCompanyData}
 \label{subsec:company-data}
 
-\section{Periodo de realización}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lc}
+        \toprule \\
+        \multicolumn{2}{c}{\textbf{\large\companyInformationText}} \\
+        \midrule
+        \textbf{\nameText} & \companyname \\
+        \textbf{\addrText} & \companyaddr \\
+        \ifdefined\ceo
+            \textbf{CEO} & \ceo \\
+        \fi
+        \ifdefined\founder
+            \textbf{\founderText} & \founder \\
+        \fi
+        \ifdefined\foundDate
+        \textbf{\foundationDateText} & \foundDate \\
+        \fi
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{\secPeriodData}
 \label{subsec:period-data}
 
-\section{Datos del tutor}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{lc}
+        \toprule \\
+        \multicolumn{2}{c}{\textbf{\large\periodTableTitle}} \\
+        \midrule
+
+        \textbf{\initDateText}  & \initDate\\
+        \textbf{\endDateText}   & \endDate \\
+        \textbf{\totalHourText} & \thours  \\
+        \textbf{\weeklyHourText}& \whours  \\
+        \textbf{\creditsText}   & \credits \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{\secAdvisorData}
 \label{subsec:tutor-data}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lc}
+        \toprule \\
+        \multicolumn{2}{c}{\textbf{\large\AdvisorInformationText}} \\
+        \midrule
+
+        \textbf{\nameText}  & \advComp\\
+        \textbf{e-mail}     & \advMail \\
+        \textbf{\phoneText} & \advPhone \\
+        \bottomrule
+    \end{tabular}
+\end{table}
