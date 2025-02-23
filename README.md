@@ -66,7 +66,10 @@ Compila el documento mediante el comando `make`. Si has decidido modificar el no
 - `make`: compila el documento y genera el pdf dentro del directorio `build`.
 - `make clear`: elimina el directorio `build`.
 
-## Contribute
+Ejemplo de la portada: 
+![poratada](portada.jpeg)
+
+## Contribuir
 
 Eres libre de usar, modificar y adaptar esta plantilla a tus necesidades.
 Siéntete libre de abrir una pull request para mejorar esta plantilla aún más.
@@ -139,6 +142,9 @@ Modify `.tex` files inside `parts` folders. `Datos.tex` should not be modified a
 Just compile the project using `make`. Modify the variable `obj` in `makefile` if you changed `main.tex` file name.
 - `make`: compile the project and generate pdf in `build` folder.
 - `make clear`: delete `build` folder.
+
+Ejemplo de la portada: 
+![poratada](portada.jpeg)
 
 ## Contribute
 
