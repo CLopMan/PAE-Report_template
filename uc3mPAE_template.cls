@@ -97,6 +97,7 @@
 
 % tables
 \RequirePackage{booktabs}
+\RequirePackage{makecell}
 
 %Variables
 \def\authorName{\@author}
