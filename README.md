@@ -56,6 +56,9 @@ Define los siguientes atributos en el archivo `main.tex`. Permiten generar autom
     - `advContactPhone`: teléfono de contacto del tutor de empresa.
     - `advisorCollege`: nombre del tutor académico.
 
+Hoja de datos:
+![Datos](datos.jpg)
+
 ### Generación del pdf
 
 Modifica los archivos `.tex` dentro del directorio `parts`. `Datos.tex` no
@@ -136,6 +139,9 @@ Define the following attributes in `main.tex` file:
     - `advContactPhone`: company advisor phone number.
     - `advisorCollege`: college advisor.
 
+Data Sheet:
+![Datos](datos.jpg)
+
 ### Generating pdf
 Modify `.tex` files inside `parts` folders. `Datos.tex` should not be modified as it generates based on the atributes defined in main file.
 
@@ -143,7 +149,7 @@ Just compile the project using `make`. Modify the variable `obj` in `makefile` i
 - `make`: compile the project and generate pdf in `build` folder.
 - `make clear`: delete `build` folder.
 
-Ejemplo de la portada: 
+Cover: 
 ![poratada](portada.jpeg)
 
 ## Contribute
