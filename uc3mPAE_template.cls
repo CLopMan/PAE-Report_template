@@ -99,6 +99,9 @@
 \RequirePackage{booktabs}
 \RequirePackage{makecell}
 
+% paragraph format
+\RequirePackage[skip=7pt plus1pt, indent=12pt]{parskip}
+
 %Variables
 \def\authorName{\@author}
 \def\titleText{\@author}
