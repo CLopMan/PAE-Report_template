@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{uc3mPAE}[2025/02/21 v1.0 Authored by CLM]
+\ProvidesClass{uc3mPAE_template}[2025/02/21 v1.0 Authored by CLM]
 
 % language
 \DeclareOption{es}{
