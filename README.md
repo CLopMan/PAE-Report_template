@@ -58,7 +58,7 @@ Define los siguientes atributos en el archivo `main.tex`. Permiten generar autom
 
 Hoja de datos:
 
-![Datos](datos.jpg)
+![Datos](readmeIMG/datos_es.jpg)
 
 ### Generación del pdf
 
@@ -72,7 +72,7 @@ Compila el documento mediante el comando `make`. Si has decidido modificar el no
 
 Ejemplo de la portada: 
 
-![poratada](portada.jpeg)
+![poratada](readmeIMG/portada_es.jpeg)
 
 ## Contribuir
 
@@ -143,7 +143,7 @@ Define the following attributes in `main.tex` file:
 
 Data Sheet:
 
-![Datos](datos.jpg)
+![Datos](readmeIMG/datos_en.jpg)
 
 ### Generating pdf
 Modify `.tex` files inside `parts` folders. `Datos.tex` should not be modified as it generates based on the atributes defined in main file.
@@ -154,7 +154,7 @@ Just compile the project using `make`. Modify the variable `obj` in `makefile` i
 
 Cover: 
 
-![poratada](portada.jpeg)
+![poratada](readmeIMG/portada_en.png)
 
 ## Contribute
 
