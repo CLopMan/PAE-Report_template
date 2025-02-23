@@ -1,6 +1,6 @@
-obj=test_myclass
+obj=main
 
-build/$(obj).pdf: $(obj).tex uc3mPAE_template.cls
+build/$(obj).pdf: $(obj).tex uc3mPAE_template.cls parts/*
 	latexmk -cd -pdf $(obj).tex	
 	mkdir -p build
 	bash -c 'mv $$(ls | grep $(obj) | grep -v *.tex) build/'

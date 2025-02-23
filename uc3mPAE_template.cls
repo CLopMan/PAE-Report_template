@@ -157,8 +157,8 @@
 \newcommand{\dateOfBirth}[1]{\def\birthdate{#1}}
 \newcommand{\companyAddress}[1]{\def\companyaddr{#1}}
 \newcommand{\companyCEO}[1]{\def\ceo{#1}}
-\newcommand{\companyFundator}[1]{\def\founder{#1}}
-\newcommand{\companyFundationDate}[1]{\def\foundDate{#1}}
+\newcommand{\companyFounder}[1]{\def\founder{#1}}
+\newcommand{\companyFoundationDate}[1]{\def\foundDate{#1}}
 \newcommand{\startDate}[1]{\def\initDate{#1}}
 \newcommand{\finishDate}[1]{\def\endDate{#1}}
 \newcommand{\nECTS}[1]{\def\credits{#1}}
