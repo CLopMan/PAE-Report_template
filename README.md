@@ -21,7 +21,7 @@ Se da soporte a español e inglés.
 \documentclass[es]{uc3mPAE_template} % spanish
 \documentclass{uc3mPAE_template} % spanish too
 
-\documentclass[en]{uc3mPAE_template} % spanish too
+\documentclass[en]{uc3mPAE_template} % english
 ```
 ### Generación automática de la hoja de datos
 Define los siguientes atributos en el archivo `main.tex`. Permiten generar automáticamente la ficha de Datos.
@@ -96,7 +96,7 @@ English and Spanish support is given.
 \documentclass[es]{uc3mPAE_template} % spanish
 \documentclass{uc3mPAE_template} % spanish too
 
-\documentclass[en]{uc3mPAE_template} % spanish too
+\documentclass[en]{uc3mPAE_template} % english
 ```
 
 ### Automatic data sheet
