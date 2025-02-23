@@ -57,6 +57,7 @@ Define los siguientes atributos en el archivo `main.tex`. Permiten generar autom
     - `advisorCollege`: nombre del tutor académico.
 
 Hoja de datos:
+
 ![Datos](datos.jpg)
 
 ### Generación del pdf
@@ -70,6 +71,7 @@ Compila el documento mediante el comando `make`. Si has decidido modificar el no
 - `make clear`: elimina el directorio `build`.
 
 Ejemplo de la portada: 
+
 ![poratada](portada.jpeg)
 
 ## Contribuir
@@ -140,6 +142,7 @@ Define the following attributes in `main.tex` file:
     - `advisorCollege`: college advisor.
 
 Data Sheet:
+
 ![Datos](datos.jpg)
 
 ### Generating pdf
@@ -150,6 +153,7 @@ Just compile the project using `make`. Modify the variable `obj` in `makefile` i
 - `make clear`: delete `build` folder.
 
 Cover: 
+
 ![poratada](portada.jpeg)
 
 ## Contribute
