@@ -116,7 +116,7 @@
   {\huge}
   []
 
-\titlespacing*{\chapter}{0pt}{0em}{2em}
+\titlespacing*{\chapter}{0pt}{0em}{0em}
 
 % headers and footers
 
