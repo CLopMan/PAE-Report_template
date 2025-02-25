@@ -88,6 +88,7 @@
 \usepackage[hidelinks]{hyperref}
 
 \hypersetup{
+    pdfproducer={plantilla desarrollada por CLopMan},
     colorlinks=true, % Activa el color en los enlaces
     linkcolor=blue,  % Color para los enlaces internos (por ejemplo, tablas de contenido)
     citecolor=black,  % Color para las citas bibliográficas
