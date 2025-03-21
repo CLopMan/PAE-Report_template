@@ -10,6 +10,8 @@ Esta plantilla está inspirada visualmente en la usada para la asignatura
 *Ingeniería de Software*. También se inspira en la plantilla para TFG's de
 Ldcas: [Ldcas-thesisTemplate](https://github.com/ldcas-uc3m/thesis-template).
 
+Puedes mirar un ejemplo en pdf aquí: [main.pdf](https://github.com/CLopMan/PAE-Report_template/blob/main/build/main.pdf)
+
 ## Requisitos
 Se recomienda instalar los siguientes paquetes:
 - Linux: `texlive-full`. Suite completa de Latex. Aunque no todas son usadas por la plantilla facilitará en gran medida la compilación y será útil para futuros proyectos en LaTeX.
@@ -89,6 +91,8 @@ Universidad Carlos III de Madrid. Someone had to do it.
 This template is visualy inspired by the template used for *Software
 Engineering* subjet. It is also based on
 [Ldcas-thesisTemplate](https://github.com/ldcas-uc3m/thesis-template).
+
+Here you have an example in pdf format: [main.pdf](https://github.com/CLopMan/PAE-Report_template/blob/main/build/main.pdf)
 
 ## Requirements
 It is strongly recommended to install the following:
